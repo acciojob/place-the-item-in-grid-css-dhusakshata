@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(2, 100px); /* Two columns each 100px wide */
   grid-template-rows: repeat(2, 100px); /* Two rows each 100px tall */
-  grid-gap: 0; /* Optional: Set the gap between grid cells */
+  grid-gap: 10px; /* Optional: Set the gap between grid cells */
 }
 .item-1{
 	background-color:green;
@@ -11,6 +11,7 @@
 }
 .item-2{
 	background-color:red;
+	grid-gap:10px;
 }
 .item-3{
 	background-color:red;
