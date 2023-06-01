@@ -1,2 +1,20 @@
 
-/* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* Two columns each 100px wide */
+  grid-template-rows: repeat(2, 100px); /* Two rows each 100px tall */
+  grid-gap: 0; /* Optional: Set the gap between grid cells */
+}
+.item-1{
+	background-color:green;
+	width:200px;
+}
+.item-2{
+	background-color:red;
+}
+.item-3{
+	background-color:red;
+}
+.item-4{
+	background-color:green;
+}
